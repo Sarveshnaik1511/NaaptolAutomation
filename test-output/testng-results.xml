@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-24T01:29:18 IST" name="Default suite" finished-at="2024-06-24T01:30:27 IST" duration-ms="69095">
+    <groups>
+    </groups>
+    <test started-at="2024-06-24T01:29:18 IST" name="Default test" finished-at="2024-06-24T01:30:27 IST" duration-ms="69095">
+      <class name="test.LoginOrRegisterTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.LoginOrRegisterTest@639c2c1d]" started-at="2024-06-24T01:29:18 IST" name="openApplication" finished-at="2024-06-24T01:29:22 IST" duration-ms="3463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyLoginOrRegesterPage()[pri:0, instance:test.LoginOrRegisterTest@639c2c1d]" started-at="2024-06-24T01:29:22 IST" name="verifyLoginOrRegesterPage" finished-at="2024-06-24T01:30:27 IST" duration-ms="65582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginOrRegesterPage -->
+      </class> <!-- test.LoginOrRegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
