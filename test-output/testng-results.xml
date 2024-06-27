@@ -2,178 +2,178 @@
 <testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-27T07:52:15 IST" name="Suite" finished-at="2024-06-27T07:54:59 IST" duration-ms="163941">
+  <suite started-at="2024-06-27T08:48:10 IST" name="Suite" finished-at="2024-06-27T08:51:00 IST" duration-ms="170207">
     <groups>
     </groups>
-    <test started-at="2024-06-27T07:52:15 IST" name="Test" finished-at="2024-06-27T07:54:59 IST" duration-ms="163941">
+    <test started-at="2024-06-27T08:48:10 IST" name="Test" finished-at="2024-06-27T08:51:00 IST" duration-ms="170207">
       <class name="test.ProductSearchTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:14 IST" name="openApplication" finished-at="2024-06-27T07:53:19 IST" duration-ms="5175" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:16 IST" name="openApplication" finished-at="2024-06-27T08:49:20 IST" duration-ms="3835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToGoToLoginOrRegesterPopup()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:19 IST" name="verifyIfUserIsAbleToGoToLoginOrRegesterPopup" finished-at="2024-06-27T07:53:20 IST" duration-ms="290" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToGoToLoginOrRegesterPopup()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:20 IST" name="verifyIfUserIsAbleToGoToLoginOrRegesterPopup" finished-at="2024-06-27T08:49:20 IST" duration-ms="340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfUserIsAbleToGoToLoginOrRegesterPopup -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:20 IST" name="closeApplication" finished-at="2024-06-27T07:53:20 IST" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:20 IST" name="closeApplication" finished-at="2024-06-27T08:49:21 IST" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:20 IST" name="openApplication" finished-at="2024-06-27T07:53:24 IST" duration-ms="3654" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:21 IST" name="openApplication" finished-at="2024-06-27T08:49:24 IST" duration-ms="3167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToGoToTrackOrderPage()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:24 IST" name="verifyIfUserIsAbleToGoToTrackOrderPage" finished-at="2024-06-27T07:53:25 IST" duration-ms="991" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToGoToTrackOrderPage()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:24 IST" name="verifyIfUserIsAbleToGoToTrackOrderPage" finished-at="2024-06-27T08:49:25 IST" duration-ms="1092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfUserIsAbleToGoToTrackOrderPage -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:25 IST" name="closeApplication" finished-at="2024-06-27T07:53:25 IST" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:25 IST" name="closeApplication" finished-at="2024-06-27T08:49:25 IST" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:25 IST" name="openApplication" finished-at="2024-06-27T07:53:30 IST" duration-ms="5750" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:25 IST" name="openApplication" finished-at="2024-06-27T08:49:28 IST" duration-ms="3015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToLaunchNaaptolOnBrowser()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:30 IST" name="verifyIfUserIsAbleToLaunchNaaptolOnBrowser" finished-at="2024-06-27T07:53:31 IST" duration-ms="72" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToLaunchNaaptolOnBrowser()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:28 IST" name="verifyIfUserIsAbleToLaunchNaaptolOnBrowser" finished-at="2024-06-27T08:49:28 IST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfUserIsAbleToLaunchNaaptolOnBrowser -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:31 IST" name="closeApplication" finished-at="2024-06-27T07:53:31 IST" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:28 IST" name="closeApplication" finished-at="2024-06-27T08:49:28 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:31 IST" name="openApplication" finished-at="2024-06-27T07:53:34 IST" duration-ms="3508" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:28 IST" name="openApplication" finished-at="2024-06-27T08:49:32 IST" duration-ms="3355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToSearchProduct()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:34 IST" name="verifyIfUserIsAbleToSearchProduct" finished-at="2024-06-27T07:53:36 IST" duration-ms="1513" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToSearchProduct()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:32 IST" name="verifyIfUserIsAbleToSearchProduct" finished-at="2024-06-27T08:49:33 IST" duration-ms="1069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfUserIsAbleToSearchProduct -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:36 IST" name="closeApplication" finished-at="2024-06-27T07:53:36 IST" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:33 IST" name="closeApplication" finished-at="2024-06-27T08:49:33 IST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:36 IST" name="openApplication" finished-at="2024-06-27T07:53:39 IST" duration-ms="3114" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:33 IST" name="openApplication" finished-at="2024-06-27T08:49:36 IST" duration-ms="2921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToSeeShopingCategories()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:39 IST" name="verifyIfUserIsAbleToSeeShopingCategories" finished-at="2024-06-27T07:53:39 IST" duration-ms="326" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToSeeShopingCategories()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:36 IST" name="verifyIfUserIsAbleToSeeShopingCategories" finished-at="2024-06-27T08:49:36 IST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfUserIsAbleToSeeShopingCategories -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T07:53:39 IST" name="closeApplication" finished-at="2024-06-27T07:53:39 IST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:36 IST" name="closeApplication" finished-at="2024-06-27T08:49:36 IST" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- test.ProductSearchTest -->
       <class name="test.LoginOrRegisterTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.LoginOrRegisterTest@15de0b3c]" started-at="2024-06-27T07:53:39 IST" name="openApplication" finished-at="2024-06-27T07:53:42 IST" duration-ms="2931" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.LoginOrRegisterTest@15de0b3c]" started-at="2024-06-27T08:49:36 IST" name="openApplication" finished-at="2024-06-27T08:49:39 IST" duration-ms="2830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyLoginOrRegesterPage()[pri:0, instance:test.LoginOrRegisterTest@15de0b3c]" started-at="2024-06-27T07:53:42 IST" name="verifyLoginOrRegesterPage" finished-at="2024-06-27T07:54:49 IST" duration-ms="66620" status="PASS">
+        <test-method signature="verifyLoginOrRegesterPage()[pri:0, instance:test.LoginOrRegisterTest@15de0b3c]" started-at="2024-06-27T08:49:39 IST" name="verifyLoginOrRegesterPage" finished-at="2024-06-27T08:50:48 IST" duration-ms="68682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginOrRegesterPage -->
       </class> <!-- test.LoginOrRegisterTest -->
       <class name="test.ViewProductDetailTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T07:54:49 IST" name="openApplication" finished-at="2024-06-27T07:54:52 IST" duration-ms="2745" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T08:50:48 IST" name="openApplication" finished-at="2024-06-27T08:50:51 IST" duration-ms="3626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToOpenProductOnNewTab()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T07:54:52 IST" name="verifyIfUserIsAbleToOpenProductOnNewTab" finished-at="2024-06-27T07:54:54 IST" duration-ms="2695" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToOpenProductOnNewTab()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T08:50:51 IST" name="verifyIfUserIsAbleToOpenProductOnNewTab" finished-at="2024-06-27T08:50:54 IST" duration-ms="3142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfUserIsAbleToOpenProductOnNewTab -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T07:54:54 IST" name="closeApplication" finished-at="2024-06-27T07:54:54 IST" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T08:50:54 IST" name="closeApplication" finished-at="2024-06-27T08:50:54 IST" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T07:54:54 IST" name="openApplication" finished-at="2024-06-27T07:54:57 IST" duration-ms="2984" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T08:50:54 IST" name="openApplication" finished-at="2024-06-27T08:50:58 IST" duration-ms="3904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToViewProductdetailsOnQuickView()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T07:54:57 IST" name="verifyIfUserIsAbleToViewProductdetailsOnQuickView" finished-at="2024-06-27T07:54:59 IST" duration-ms="1798" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToViewProductdetailsOnQuickView()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T08:50:58 IST" name="verifyIfUserIsAbleToViewProductdetailsOnQuickView" finished-at="2024-06-27T08:51:00 IST" duration-ms="1787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfUserIsAbleToViewProductdetailsOnQuickView -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T07:54:59 IST" name="closeApplication" finished-at="2024-06-27T07:54:59 IST" duration-ms="115" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T08:51:00 IST" name="closeApplication" finished-at="2024-06-27T08:51:00 IST" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- test.ViewProductDetailTest -->
       <class name="test.CartTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:16 IST" name="openApplication" finished-at="2024-06-27T07:52:21 IST" duration-ms="5630" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:10 IST" name="openApplication" finished-at="2024-06-27T08:48:17 IST" duration-ms="6390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyAddToCartFromOrderDetailsUsingQuickView()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:21 IST" name="verifyAddToCartFromOrderDetailsUsingQuickView" finished-at="2024-06-27T07:52:24 IST" duration-ms="2606" status="PASS">
+        <test-method signature="verifyAddToCartFromOrderDetailsUsingQuickView()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:17 IST" name="verifyAddToCartFromOrderDetailsUsingQuickView" finished-at="2024-06-27T08:48:19 IST" duration-ms="2125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddToCartFromOrderDetailsUsingQuickView -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:24 IST" name="closeApplication" finished-at="2024-06-27T07:52:24 IST" duration-ms="162" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:19 IST" name="closeApplication" finished-at="2024-06-27T08:48:19 IST" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:24 IST" name="openApplication" finished-at="2024-06-27T07:52:28 IST" duration-ms="3355" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:19 IST" name="openApplication" finished-at="2024-06-27T08:48:22 IST" duration-ms="3433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyAddToCartFromProductDetail()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:28 IST" name="verifyAddToCartFromProductDetail" finished-at="2024-06-27T07:52:30 IST" duration-ms="2756" status="PASS">
+        <test-method signature="verifyAddToCartFromProductDetail()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:22 IST" name="verifyAddToCartFromProductDetail" finished-at="2024-06-27T08:48:25 IST" duration-ms="2744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddToCartFromProductDetail -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:30 IST" name="closeApplication" finished-at="2024-06-27T07:52:30 IST" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:25 IST" name="closeApplication" finished-at="2024-06-27T08:48:25 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:30 IST" name="openApplication" finished-at="2024-06-27T07:52:35 IST" duration-ms="4596" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:25 IST" name="openApplication" finished-at="2024-06-27T08:48:28 IST" duration-ms="2994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyAddingTwoProductsInTheCart()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:35 IST" name="verifyAddingTwoProductsInTheCart" finished-at="2024-06-27T07:52:48 IST" duration-ms="12619" status="PASS">
+        <test-method signature="verifyAddingTwoProductsInTheCart()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:28 IST" name="verifyAddingTwoProductsInTheCart" finished-at="2024-06-27T08:48:33 IST" duration-ms="4806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddingTwoProductsInTheCart -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:48 IST" name="closeApplication" finished-at="2024-06-27T07:52:48 IST" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:33 IST" name="closeApplication" finished-at="2024-06-27T08:48:33 IST" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:48 IST" name="openApplication" finished-at="2024-06-27T07:52:51 IST" duration-ms="3572" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:33 IST" name="openApplication" finished-at="2024-06-27T08:48:42 IST" duration-ms="8983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyAmountsInTheCart()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:51 IST" name="verifyAmountsInTheCart" finished-at="2024-06-27T07:52:53 IST" duration-ms="2149" status="PASS">
+        <test-method signature="verifyAmountsInTheCart()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:42 IST" name="verifyAmountsInTheCart" finished-at="2024-06-27T08:48:44 IST" duration-ms="2238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAmountsInTheCart -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:53 IST" name="closeApplication" finished-at="2024-06-27T07:52:54 IST" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:44 IST" name="closeApplication" finished-at="2024-06-27T08:48:45 IST" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:54 IST" name="openApplication" finished-at="2024-06-27T07:52:57 IST" duration-ms="3096" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:45 IST" name="openApplication" finished-at="2024-06-27T08:48:48 IST" duration-ms="3132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyAmountsInTheCartForMultipleProducts()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:52:57 IST" name="verifyAmountsInTheCartForMultipleProducts" finished-at="2024-06-27T07:53:02 IST" duration-ms="5163" status="PASS">
+        <test-method signature="verifyAmountsInTheCartForMultipleProducts()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:48 IST" name="verifyAmountsInTheCartForMultipleProducts" finished-at="2024-06-27T08:48:57 IST" duration-ms="8986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAmountsInTheCartForMultipleProducts -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:53:02 IST" name="closeApplication" finished-at="2024-06-27T07:53:02 IST" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:57 IST" name="closeApplication" finished-at="2024-06-27T08:48:57 IST" duration-ms="588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:53:02 IST" name="openApplication" finished-at="2024-06-27T07:53:05 IST" duration-ms="3433" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:57 IST" name="openApplication" finished-at="2024-06-27T08:49:03 IST" duration-ms="6145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyRemoveFunctionalityOfCart()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:53:05 IST" name="verifyRemoveFunctionalityOfCart" finished-at="2024-06-27T07:53:14 IST" duration-ms="8826" status="PASS">
+        <test-method signature="verifyRemoveFunctionalityOfCart()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:49:03 IST" name="verifyRemoveFunctionalityOfCart" finished-at="2024-06-27T08:49:16 IST" duration-ms="12706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRemoveFunctionalityOfCart -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T07:53:14 IST" name="closeApplication" finished-at="2024-06-27T07:53:14 IST" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:49:16 IST" name="closeApplication" finished-at="2024-06-27T08:49:16 IST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->

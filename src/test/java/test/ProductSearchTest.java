@@ -24,7 +24,6 @@ public class ProductSearchTest extends BaseTest {
 	}
 
 	
-	
 	@Test
 	public void verifyIfUserIsAbleToLaunchNaaptolOnBrowser() {
 		// to create reporting
@@ -44,9 +43,9 @@ public class ProductSearchTest extends BaseTest {
 		test = reports.createTest("verifyIfUserIsAbleToGoToLoginOrRegesterPopup");
 
 		naaptolHomePage = new NaaptolHomePage(driver);
-		naaptolHomePage.clickOnLoginOrRegester();
-		Assert.assertTrue(naaptolHomePage.isLoginOrregesterPopupDisplayed());
-		Assert.assertTrue(naaptolHomePage.isLoginOrRegesterTextVisible());
+		naaptolHomePage.clickOnLoginOrRegister();
+		Assert.assertTrue(naaptolHomePage.isLoginOrRegisterPopupDisplayed());
+		Assert.assertTrue(naaptolHomePage.isLoginOrRegisterTextVisible());
 	}
 	
 

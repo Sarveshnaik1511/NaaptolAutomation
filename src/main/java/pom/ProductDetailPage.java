@@ -16,23 +16,19 @@ public class ProductDetailPage extends BasePage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	
 	public String getProductTitleOnQuickView() {
 		return productNameOnQuickView.getText();
 	}
 
 	public double getProductPriceOnQuickView() {
-
 		String[] price = productPriceOnQuickView.getText().split(" ");
 		return Double.parseDouble(removeCommaFromString(price[0]));
-
 	}
 
 	public double getProductShipingPrice() {
 		String[] price = productPriceOnQuickView.getText().split(" ");
 		return Double.parseDouble(removeCommaFromString(price[2]));
 	}
-	
 	
 	public void clickHereToBuy() {
 		clickToBuy.click();

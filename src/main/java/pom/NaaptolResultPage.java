@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class NaaptolResultPage {
+public class NaaptolResultPage extends BasePage{
 	
 	@FindBy (xpath = "//div[@class='grid_Square ']") private List<WebElement> products;
 	@FindBy (xpath = "//a[@class='bt_compare icon chat quickFancyBox']")private List<WebElement> quickView;
@@ -48,22 +48,22 @@ public class NaaptolResultPage {
 		return productTitle.get(index).getText();
 	}
 
-	public String getProductPrice(int index) {
-		return productPrice.get(index).getText();
+	public boolean getProductPrice(int index) {
+		return Boolean.parseBoolean(removeCommaFromString(productPrice.get(index).getText()));
 	}
 
 	public String getProductTitleOnQuickView() {
 		return productTitleOnQuickView.getText();
 	}
 
-	public String getProductPriceOnQuickView() {
+	public boolean getProductPriceOnQuickView() {
 		String[] price = productPriseOnQuickView.getText().split(" ");
-		return price[0];  
+		return Boolean.parseBoolean(removeCommaFromString(price[0]));  
 	}
 
-	public String getProductPriceOnNewPage() {
+	public boolean getProductPriceOnNewPage() {
 		String[] price = productPriseOnNewPage.getText().split(" ");
-		return price[0];
+		return Boolean.parseBoolean(removeCommaFromString( price[0]));
 	}
 
 	public String getProductTitleOnNewPage() {

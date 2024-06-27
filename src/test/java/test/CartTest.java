@@ -157,7 +157,8 @@ public class CartTest extends BaseTest {
 		cartPage.removeItemFromCart();
 
 		// wait for the cart to update
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
+		cartPage.waitUntilCartUpdates(driver, productsInCart -1);
 
 		// verify product has bee removed or not
 		int productsInCartAfterRemoving = cartPage.getNumberOfProductsInCart();
@@ -215,7 +216,7 @@ public class CartTest extends BaseTest {
 		productDetailPage.clickHereToBuy();
 
 		// wait for the cart to update
-		Thread.sleep(2000);
+		cartPage.waitUntilCartUpdates(driver, cartPage.getNumberOfProductsInCart()+1);
 
 		// verify number of products in the cart
 		int actualSize = cartPage.getNumberOfProductsInCart();

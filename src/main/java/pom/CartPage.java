@@ -1,16 +1,20 @@
 package pom;
 
+import java.time.Duration;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CartPage extends BasePage {
 	@FindBy (xpath ="//ul[@id='cartData']") private List<WebElement> products;
 	@FindBy (xpath ="//div[@class='cart_info']//h2") private List<WebElement> productName;
-	@FindBy (xpath ="//ul[@id='cartData']//li[@class='head_UPrice']") private List<WebElement> unitprice;
+	@FindBy (xpath ="//ul[@id='cartData']//li[@class='head_UPrice']") private List<WebElement> unitPrice;
 	@FindBy (xpath ="//ul[@id='cartData']//li[@class='head_ship']") private List<WebElement> productShippingPrice;
 	@FindBy (xpath ="//ul[@id='cartData']//li[@class='head_Amount']")private List<WebElement> orderAmount;
 	@FindBy (xpath ="//div[@class='fancybox-skin']//a[@title='Close']") private WebElement close;
@@ -42,7 +46,7 @@ public class CartPage extends BasePage {
 		// in this case, string returns Rs.1,999
 		// we will take the string starting from 1,999
 		// so we use substring method substring(3), 3 indicate starting from index 3
-		return Double.parseDouble(removeCommaFromString(unitprice.get(index).getText().substring(3)));
+		return Double.parseDouble(removeCommaFromString(unitPrice.get(index).getText().substring(3)));
 	}
 	
  
@@ -69,11 +73,17 @@ public class CartPage extends BasePage {
 	public void clickOnContinueShopping() {
 		continueShopping.click();
 	}
+	
 	public void clickOnClose() {
 		close.click();
 	}
+	
 	public void removeItemFromCart() {
 		removeItem.click();
+	}
+	public void waitUntilCartUpdates(WebDriver driver, int productsInCart ) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+		wait.until(ExpectedConditions.numberOfElementsToBe(By.xpath("//ul[@id='cartData']"), productsInCart ));
 	}
 	
 
