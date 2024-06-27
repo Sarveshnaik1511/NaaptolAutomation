@@ -5,11 +5,13 @@ package test;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
 import pojo.Browser;
 import pom.NaaptolHomePage;
 import pom.NaaptolResultPage;
+
+@Listeners(test.Listeners.class)
 
 public class ViewProductDetailTest extends BaseTest{
 	
@@ -24,6 +26,9 @@ public class ViewProductDetailTest extends BaseTest{
 	
 	@Test
 	public void verifyIfUserIsAbleToViewProductdetailsOnQuickView() {
+		
+		test =reports.createTest("verifyIfUserIsAbleToViewProductdetailsOnQuickView");
+		
 		// while creating Object, we can declare the className in BaseTest,
 		// and here we will give only object name and constructor,
 		NaaptolHomePage naaptolHomePage = new NaaptolHomePage(driver);
@@ -31,10 +36,10 @@ public class ViewProductDetailTest extends BaseTest{
 
 		naaptolHomePage.enterProductToSearch("toys");
 		naaptolHomePage.clickOnSearch();
-
+		
+		naaptolResultPage.moveToDesiredProduct(driver, 0);
 		String productTitle = naaptolResultPage.getProductTitle(0);
 		String productPrice = naaptolResultPage.getProductPrice(0);
-		naaptolResultPage.moveToDesiredProduct(driver, 0);
 		
 		naaptolResultPage.clickOnQuickView(0);
 		String ProductTitleOnQuickView = naaptolResultPage.getProductTitleOnQuickView();
@@ -45,6 +50,8 @@ public class ViewProductDetailTest extends BaseTest{
 	}
 	@Test
 	public void verifyIfUserIsAbleToOpenProductOnNewTab() {
+		
+		test = reports.createTest("verifyIfUserIsAbleToOpenProductOnNewTab");
 		
 		 naaptolHomePage = new NaaptolHomePage(driver);
 		 naaptolResultPage = new NaaptolResultPage(driver);

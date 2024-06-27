@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import pojo.Browser;
@@ -14,6 +15,9 @@ import pom.LoginPage;
 import pom.NaaptolHomePage;
 import pom.NaaptolResultPage;
 import pom.ProductDetailPage;
+
+@Listeners(test.Listeners.class)
+
 
 public class LoginOrRegisterTest extends BaseTest {
 	
@@ -26,6 +30,9 @@ public class LoginOrRegisterTest extends BaseTest {
 	@Test
 	public void verifyLoginOrRegesterPage() throws EncryptedDocumentException, IOException, InterruptedException {
 		// search and click on product
+		
+		test= reports.createTest("verifyLoginOrRegesterPage");
+		
 		naaptolHomePage = new NaaptolHomePage(driver);
 		naaptolHomePage.enterProductToSearch("Toys");
 		naaptolHomePage.clickOnSearch();
