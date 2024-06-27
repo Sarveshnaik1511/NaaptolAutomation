@@ -38,14 +38,6 @@ public class CartPage extends BasePage {
 	
 	
 	public double getUnitPrice(int index) {
-		
-		//price will be in the string and it might contain comma i.e (,) eg:- 1,999
-		//so we have to remove comma first and then have to convert that value into double
-		//firstly we will get the text value, then if comma present in it, it will get removed and then it will converted to double.
-		
-		// in this case, string returns Rs.1,999
-		// we will take the string starting from 1,999
-		// so we use substring method substring(3), 3 indicate starting from index 3
 		return Double.parseDouble(removeCommaFromString(unitPrice.get(index).getText().substring(3)));
 	}
 	

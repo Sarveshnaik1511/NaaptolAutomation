@@ -31,6 +31,7 @@ public class Listeners extends BaseTest implements ITestListener{
 	
 	public void onTestFailure(ITestResult result) {
 		test.log(Status.FAIL, result.getName());
+		
 		try {
 			Screenshot.takeScreenshot(driver, result.getName());
 		} catch (IOException e) {

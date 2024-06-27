@@ -28,9 +28,7 @@ public class ProductSearchTest extends BaseTest {
 	public void verifyIfUserIsAbleToLaunchNaaptolOnBrowser() {
 		// to create reporting
 		test = reports.createTest("verifyIfUserIsAbleToLaunchNaaptolOnBrowser");
-
-		// we can declare class name in baseTest globally for objects
-		// so we will write object name and constructor in Tests
+		
 		naaptolHomePage = new NaaptolHomePage(driver);
 		Assert.assertTrue(driver.getCurrentUrl().equals("https://www.naaptol.com/"));
 		Assert.assertTrue(naaptolHomePage.isShoppingCategoriesDisplayed());

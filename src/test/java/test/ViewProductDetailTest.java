@@ -29,8 +29,6 @@ public class ViewProductDetailTest extends BaseTest{
 		
 		test =reports.createTest("verifyIfUserIsAbleToViewProductdetailsOnQuickView");
 		
-		// while creating Object, we can declare the className in BaseTest,
-		// and here we will give only object name and constructor,
 		NaaptolHomePage naaptolHomePage = new NaaptolHomePage(driver);
 		naaptolResultPage = new NaaptolResultPage(driver);
 
@@ -53,8 +51,8 @@ public class ViewProductDetailTest extends BaseTest{
 		
 		test = reports.createTest("verifyIfUserIsAbleToOpenProductOnNewTab");
 		
-		 naaptolHomePage = new NaaptolHomePage(driver);
-		 naaptolResultPage = new NaaptolResultPage(driver);
+		naaptolHomePage = new NaaptolHomePage(driver);
+		naaptolResultPage = new NaaptolResultPage(driver);
 		
 		naaptolHomePage.enterProductToSearch("toys");
 		naaptolHomePage.clickOnSearch();
@@ -64,24 +62,6 @@ public class ViewProductDetailTest extends BaseTest{
 		
 		naaptolResultPage.clickOnDesiredProduct(0);
 		naaptolResultPage.clickOnDesiredProduct(0);
-		
-//		Set<String> Handles = driver.getWindowHandles();
-//		Iterator<String> i=	Handles.iterator();
-		
-//		while(i.hasNext()) {
-//			String handle =i.next();
-//			driver.switchTo().window(handle);
-//			
-//			if(driver.getTitle().contains(productTitle)) {
-//				Assert.assertEquals(productTitle, naaptolResultPage.getProductTitleOnNewPage());
-//				Assert.assertEquals(productPrice, naaptolResultPage.getProductPriceOnNewPage());
-//			}
-//		}
-		
-		// in first switch, selenium focus will be on first page,
-		// on second switch, it will get switch to the next page
-			//	driver.switchTo().window(i.next());
-			//	driver.switchTo().window(i.next());
 		
 		switchToChildBrowser();
 		
