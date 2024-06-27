@@ -1,22 +1,17 @@
 package pom;
 
 import java.io.IOException;
-
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
-
 import utility.Parametrization;
 
 
-
-
-
 public class LoginPage {
-	@FindBy (xpath ="//input[@id='gc-registration-basic-panel-mobile']") private WebElement MobilenumberInputField;
+	@FindBy (xpath ="//input[@id='gc-registration-basic-panel-mobile']") private WebElement MobileNumberInputField;
 	@FindBy (xpath ="//input[@id='gc-registration-basic-panel-submit']") private WebElement continueButton;
 	@FindBy (xpath ="//input[@id='gc-registration-otp-panel-otp']") private WebElement otpField;
 	@FindBy (xpath ="//input[@id='gc-registration-otp-panel-submit']") private WebElement submitButton;
@@ -37,22 +32,27 @@ public class LoginPage {
 	}
 	
 	public void enterMobileNumber(String sheet, int row, int column) throws EncryptedDocumentException, IOException {
-		MobilenumberInputField.sendKeys(Parametrization.getTestData(sheet, row, column));
+		MobileNumberInputField.sendKeys(Parametrization.getTestData(sheet, row, column));
 		
 	}
+	
 	public void clickOnContinueButton() {
 		continueButton.click();
 	}
+	
 	public void enterOtp(String otp) {
 		otpField.sendKeys();
 	}
+	
 	public void clickOnSubmit() {
 		submitButton.click();
 	}
+	
 	public void selectNameTitle(String value) {
 		Select selectTitle = new Select(title);
 		selectTitle.selectByValue(value);
 	}
+	
 	public void enterFirstName(String sheet , int row , int column) throws EncryptedDocumentException, IOException {
 	firstName.sendKeys(Parametrization.getTestData(sheet, row, column));
 	}
@@ -69,15 +69,16 @@ public class LoginPage {
 		pincode.sendKeys(Parametrization.getTestData(sheet, row, column));
 	}
 	
-	
 	public void selectState (String stateByValue) {
 		Select chooseState = new Select(state);
 		chooseState.selectByValue(stateByValue);
 	}
+	
 	public void selectCity (String value) {
 		Select chooseCity = new Select(city);
 		chooseCity.selectByValue(value);
 	}
+	
 	public void enterMobileNumberForRegistration(String sheet , int row , int column) throws EncryptedDocumentException, IOException {
 		mobileNumber.sendKeys(Parametrization.getTestData(sheet, row, column));
 	}

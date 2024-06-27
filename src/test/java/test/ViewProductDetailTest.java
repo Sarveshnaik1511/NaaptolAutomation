@@ -39,11 +39,11 @@ public class ViewProductDetailTest extends BaseTest{
 		
 		naaptolResultPage.moveToDesiredProduct(driver, 0);
 		String productTitle = naaptolResultPage.getProductTitle(0);
-		String productPrice = naaptolResultPage.getProductPrice(0);
+		boolean productPrice = naaptolResultPage.getProductPrice(0);
 		
 		naaptolResultPage.clickOnQuickView(0);
 		String ProductTitleOnQuickView = naaptolResultPage.getProductTitleOnQuickView();
-		String ProductPriceOnQuickView = naaptolResultPage.getProductPriceOnQuickView();
+		boolean ProductPriceOnQuickView = naaptolResultPage.getProductPriceOnQuickView();
 		Assert.assertEquals(ProductTitleOnQuickView, productTitle);
 		Assert.assertEquals(ProductPriceOnQuickView, productPrice);
 	
@@ -60,7 +60,7 @@ public class ViewProductDetailTest extends BaseTest{
 		naaptolHomePage.clickOnSearch();
 		
 		String productTitle =naaptolResultPage.getProductTitle(0);
-		String productPrice = naaptolResultPage.getProductPrice(0);
+		boolean productPrice = naaptolResultPage.getProductPrice(0);
 		
 		naaptolResultPage.clickOnDesiredProduct(0);
 		naaptolResultPage.clickOnDesiredProduct(0);

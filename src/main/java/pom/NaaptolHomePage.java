@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class NaaptolHomePage {
 	
-	@FindBy (xpath ="//a[@id='login-panel-link']")private WebElement loginOrRegester;
+	@FindBy (xpath ="//a[@id='login-panel-link']")private WebElement loginOrRegister;
 	@FindBy (xpath = "//div[@id='cate_head']")private WebElement shoppingCategories;
 	@FindBy (xpath = "//input[@id='header_search_text']")private WebElement searchField;
 	@FindBy (xpath = "(//div[@class='search'])[2]//a")private WebElement search;
@@ -18,9 +18,9 @@ public class NaaptolHomePage {
 	@FindBy (xpath = "//a[text()='Track Order']")private WebElement trackOrder;
 	@FindBy (xpath= "(//div[@id='mainMenuContent']//nav//ul//li)[4]")private WebElement listItem;
 	@FindBy (xpath = "//div[@class='grid_Square ']")private List<WebElement> productList;
-	@FindBy (xpath = "//section[@id='registerSignBox']")private WebElement loginRegesterPopup;
+	@FindBy (xpath = "//section[@id='registerSignBox']")private WebElement loginRegisterPopup;
 	@FindBy (xpath = " //p[@class='staticDiscNote']")private WebElement trackOrderNote;
-	@FindBy (xpath ="//p[text()='Login / Register']")private WebElement loginregesterText;
+	@FindBy (xpath ="//p[text()='Login / Register']")private WebElement loginRegisterText;
 	
 	
 	
@@ -28,8 +28,8 @@ public class NaaptolHomePage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	 public void clickOnLoginOrRegester() {
-		 loginOrRegester.click();
+	 public void clickOnLoginOrRegister() {
+		 loginOrRegister.click();
 	 }
 	 public void clickOnTrackOrder() {
 		 trackOrder.click();
@@ -56,14 +56,14 @@ public class NaaptolHomePage {
 	public boolean isShoppingCategoriesDisplayed() {
 		return	shoppingCategories.isDisplayed();
 	}
-	public boolean isLoginOrregesterPopupDisplayed() {
-		return	loginRegesterPopup.isDisplayed();
+	public boolean isLoginOrRegisterPopupDisplayed() {
+		return	loginRegisterPopup.isDisplayed();
 	}
 	public boolean isTrackOrderPageDisplayed() {
 		return trackOrderNote.isDisplayed();
 	}
-	public boolean isLoginOrRegesterTextVisible() {
-		return loginregesterText.isDisplayed();
+	public boolean isLoginOrRegisterTextVisible() {
+		return loginRegisterText.isDisplayed();
 	}
 	public void clearSearchField() {
 		searchField.clear();
