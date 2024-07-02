@@ -2,12 +2,9 @@ package test;
 
 import java.util.Iterator;
 import java.util.Set;
-
 import org.openqa.selenium.WebDriver;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-
 import pom.CartPage;
 import pom.LoginPage;
 import pom.NaaptolHomePage;
