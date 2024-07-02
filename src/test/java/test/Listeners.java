@@ -20,18 +20,18 @@ public class Listeners extends BaseTest implements ITestListener{
 	public void onFinish(ITestContext result) {
 		reports.flush();
 	}
-	
+
 	public void onTestStart(ITestResult result) {
-		
-	}
-	
+
+	} 
+
 	public void onTestSuccess(ITestResult result) {
 		test.log(Status.PASS, result.getName());
 	}
-	
+
 	public void onTestFailure(ITestResult result) {
 		test.log(Status.FAIL, result.getName());
-		
+
 		try {
 			Screenshot.takeScreenshot(driver, result.getName());
 		} catch (IOException e) {

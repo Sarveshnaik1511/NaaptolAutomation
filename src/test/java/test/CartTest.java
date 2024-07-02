@@ -7,6 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pojo.Browser;
 import pom.CartPage;
@@ -18,9 +19,11 @@ import pom.ProductDetailPage;
 
 public class CartTest extends BaseTest {
 
+	@Parameters ({"name"})
+	 
 	@BeforeMethod
-	public void openApplication() {
-		driver = Browser.launchApplication();
+	public void openApplication(String name) {
+		driver = Browser.launchApplication(name);
 	}
 
 	@AfterMethod
@@ -221,6 +224,7 @@ public class CartTest extends BaseTest {
 		// verify number of products in the cart
 		int actualSize = cartPage.getNumberOfProductsInCart();
 		Assert.assertEquals(actualSize, 2);
+		Assert.assertEquals(naaptolResultPage.getProductTitle(1), cartPage.getProductName(1));
 
 		// verify totalOrderAmounts of 2 product matches the total final Amount
 		double totalOrderAmount = cartPage.getOrderAmount(0) + cartPage.getOrderAmount(1);

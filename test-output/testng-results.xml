@@ -1,183 +1,473 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="7" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-27T08:48:10 IST" name="Suite" finished-at="2024-06-27T08:51:00 IST" duration-ms="170207">
+  <suite started-at="2024-07-03T05:10:07 IST" name="Suite" finished-at="2024-07-03T05:10:55 IST" duration-ms="48389">
     <groups>
     </groups>
-    <test started-at="2024-06-27T08:48:10 IST" name="Test" finished-at="2024-06-27T08:51:00 IST" duration-ms="170207">
+    <test started-at="2024-07-03T05:10:07 IST" name="ChromeTest" finished-at="2024-07-03T05:10:26 IST" duration-ms="18695">
       <class name="test.ProductSearchTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:16 IST" name="openApplication" finished-at="2024-06-27T08:49:20 IST" duration-ms="3835" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:07 IST" name="openApplication" finished-at="2024-07-03T05:10:11 IST" duration-ms="3833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToGoToLoginOrRegesterPopup()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:20 IST" name="verifyIfUserIsAbleToGoToLoginOrRegesterPopup" finished-at="2024-06-27T08:49:20 IST" duration-ms="340" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToGoToLoginOrRegesterPopup()[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:11 IST" name="verifyIfUserIsAbleToGoToLoginOrRegesterPopup" finished-at="2024-07-03T05:10:12 IST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfUserIsAbleToGoToLoginOrRegesterPopup -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:20 IST" name="closeApplication" finished-at="2024-06-27T08:49:21 IST" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:12 IST" name="closeApplication" finished-at="2024-07-03T05:10:12 IST" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:21 IST" name="openApplication" finished-at="2024-06-27T08:49:24 IST" duration-ms="3167" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:12 IST" name="openApplication" finished-at="2024-07-03T05:10:14 IST" duration-ms="2478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToGoToTrackOrderPage()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:24 IST" name="verifyIfUserIsAbleToGoToTrackOrderPage" finished-at="2024-06-27T08:49:25 IST" duration-ms="1092" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToGoToTrackOrderPage()[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:14 IST" name="verifyIfUserIsAbleToGoToTrackOrderPage" finished-at="2024-07-03T05:10:15 IST" duration-ms="1111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfUserIsAbleToGoToTrackOrderPage -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:25 IST" name="closeApplication" finished-at="2024-06-27T08:49:25 IST" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:15 IST" name="closeApplication" finished-at="2024-07-03T05:10:15 IST" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:25 IST" name="openApplication" finished-at="2024-06-27T08:49:28 IST" duration-ms="3015" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:15 IST" name="openApplication" finished-at="2024-07-03T05:10:18 IST" duration-ms="2534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToLaunchNaaptolOnBrowser()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:28 IST" name="verifyIfUserIsAbleToLaunchNaaptolOnBrowser" finished-at="2024-06-27T08:49:28 IST" duration-ms="113" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToLaunchNaaptolOnBrowser()[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:18 IST" name="verifyIfUserIsAbleToLaunchNaaptolOnBrowser" finished-at="2024-07-03T05:10:18 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfUserIsAbleToLaunchNaaptolOnBrowser -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:28 IST" name="closeApplication" finished-at="2024-06-27T08:49:28 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:18 IST" name="closeApplication" finished-at="2024-07-03T05:10:18 IST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:28 IST" name="openApplication" finished-at="2024-06-27T08:49:32 IST" duration-ms="3355" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:18 IST" name="openApplication" finished-at="2024-07-03T05:10:21 IST" duration-ms="2801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToSearchProduct()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:32 IST" name="verifyIfUserIsAbleToSearchProduct" finished-at="2024-06-27T08:49:33 IST" duration-ms="1069" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToSearchProduct()[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:21 IST" name="verifyIfUserIsAbleToSearchProduct" finished-at="2024-07-03T05:10:22 IST" duration-ms="1164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfUserIsAbleToSearchProduct -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:33 IST" name="closeApplication" finished-at="2024-06-27T08:49:33 IST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:22 IST" name="closeApplication" finished-at="2024-07-03T05:10:22 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:33 IST" name="openApplication" finished-at="2024-06-27T08:49:36 IST" duration-ms="2921" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:22 IST" name="openApplication" finished-at="2024-07-03T05:10:25 IST" duration-ms="2787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToSeeShopingCategories()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:36 IST" name="verifyIfUserIsAbleToSeeShopingCategories" finished-at="2024-06-27T08:49:36 IST" duration-ms="276" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToSeeShopingCategories()[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:25 IST" name="verifyIfUserIsAbleToSeeShopingCategories" finished-at="2024-07-03T05:10:25 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfUserIsAbleToSeeShopingCategories -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@1a677343]" started-at="2024-06-27T08:49:36 IST" name="closeApplication" finished-at="2024-06-27T08:49:36 IST" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@2b71e916]" started-at="2024-07-03T05:10:25 IST" name="closeApplication" finished-at="2024-07-03T05:10:26 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- test.ProductSearchTest -->
-      <class name="test.LoginOrRegisterTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.LoginOrRegisterTest@15de0b3c]" started-at="2024-06-27T08:49:36 IST" name="openApplication" finished-at="2024-06-27T08:49:39 IST" duration-ms="2830" status="PASS">
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-07-03T05:10:26 IST" name="EdgeTest" finished-at="2024-07-03T05:10:55 IST" duration-ms="29244">
+      <class name="test.ProductSearchTest">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:26 IST" name="openApplication" finished-at="2024-07-03T05:10:36 IST" duration-ms="10290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyLoginOrRegesterPage()[pri:0, instance:test.LoginOrRegisterTest@15de0b3c]" started-at="2024-06-27T08:49:39 IST" name="verifyLoginOrRegesterPage" finished-at="2024-06-27T08:50:48 IST" duration-ms="68682" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToGoToLoginOrRegesterPopup()[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:36 IST" name="verifyIfUserIsAbleToGoToLoginOrRegesterPopup" finished-at="2024-07-03T05:10:37 IST" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginOrRegesterPage -->
-      </class> <!-- test.LoginOrRegisterTest -->
-      <class name="test.ViewProductDetailTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T08:50:48 IST" name="openApplication" finished-at="2024-06-27T08:50:51 IST" duration-ms="3626" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToOpenProductOnNewTab()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T08:50:51 IST" name="verifyIfUserIsAbleToOpenProductOnNewTab" finished-at="2024-06-27T08:50:54 IST" duration-ms="3142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIfUserIsAbleToOpenProductOnNewTab -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T08:50:54 IST" name="closeApplication" finished-at="2024-06-27T08:50:54 IST" duration-ms="62" status="PASS">
+        </test-method> <!-- verifyIfUserIsAbleToGoToLoginOrRegesterPopup -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:37 IST" name="closeApplication" finished-at="2024-07-03T05:10:37 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T08:50:54 IST" name="openApplication" finished-at="2024-06-27T08:50:58 IST" duration-ms="3904" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:37 IST" name="openApplication" finished-at="2024-07-03T05:10:46 IST" duration-ms="8904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyIfUserIsAbleToViewProductdetailsOnQuickView()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T08:50:58 IST" name="verifyIfUserIsAbleToViewProductdetailsOnQuickView" finished-at="2024-06-27T08:51:00 IST" duration-ms="1787" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToGoToTrackOrderPage()[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:46 IST" name="verifyIfUserIsAbleToGoToTrackOrderPage" finished-at="2024-07-03T05:10:51 IST" duration-ms="5155" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyIfUserIsAbleToViewProductdetailsOnQuickView -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ViewProductDetailTest@489115ef]" started-at="2024-06-27T08:51:00 IST" name="closeApplication" finished-at="2024-06-27T08:51:00 IST" duration-ms="156" status="PASS">
+        </test-method> <!-- verifyIfUserIsAbleToGoToTrackOrderPage -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:51 IST" name="closeApplication" finished-at="2024-07-03T05:10:51 IST" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-      </class> <!-- test.ViewProductDetailTest -->
-      <class name="test.CartTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:10 IST" name="openApplication" finished-at="2024-06-27T08:48:17 IST" duration-ms="6390" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:51 IST" name="openApplication" finished-at="2024-07-03T05:10:55 IST" duration-ms="4073" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [bc90bef074d1bf5b1ed5aa5094fcb174, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51280}, msedge: {msedgedriverVersion: 126.0.2592.81 (38151611195b..., userDataDir: C:\Users\123\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51280/devtoo..., se:cdpVersion: 126.0.2592.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc90bef074d1bf5b1ed5aa5094fcb174]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [bc90bef074d1bf5b1ed5aa5094fcb174, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51280}, msedge: {msedgedriverVersion: 126.0.2592.81 (38151611195b..., userDataDir: C:\Users\123\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51280/devtoo..., se:cdpVersion: 126.0.2592.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc90bef074d1bf5b1ed5aa5094fcb174
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
+at pojo.Browser.launchApplication(Browser.java:26)
+at test.ProductSearchTest.openApplication(ProductSearchTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyAddToCartFromOrderDetailsUsingQuickView()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:17 IST" name="verifyAddToCartFromOrderDetailsUsingQuickView" finished-at="2024-06-27T08:48:19 IST" duration-ms="2125" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToLaunchNaaptolOnBrowser()[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:55 IST" name="verifyIfUserIsAbleToLaunchNaaptolOnBrowser" finished-at="2024-07-03T05:10:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [bc90bef074d1bf5b1ed5aa5094fcb174, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51280}, msedge: {msedgedriverVersion: 126.0.2592.81 (38151611195b..., userDataDir: C:\Users\123\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51280/devtoo..., se:cdpVersion: 126.0.2592.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc90bef074d1bf5b1ed5aa5094fcb174]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [bc90bef074d1bf5b1ed5aa5094fcb174, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51280}, msedge: {msedgedriverVersion: 126.0.2592.81 (38151611195b..., userDataDir: C:\Users\123\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51280/devtoo..., se:cdpVersion: 126.0.2592.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc90bef074d1bf5b1ed5aa5094fcb174
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
+at pojo.Browser.launchApplication(Browser.java:26)
+at test.ProductSearchTest.openApplication(ProductSearchTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddToCartFromOrderDetailsUsingQuickView -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:19 IST" name="closeApplication" finished-at="2024-06-27T08:48:19 IST" duration-ms="146" status="PASS">
+        </test-method> <!-- verifyIfUserIsAbleToLaunchNaaptolOnBrowser -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:55 IST" name="closeApplication" finished-at="2024-07-03T05:10:55 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:19 IST" name="openApplication" finished-at="2024-06-27T08:48:22 IST" duration-ms="3433" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:55 IST" name="openApplication" finished-at="2024-07-03T05:10:55 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyAddToCartFromProductDetail()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:22 IST" name="verifyAddToCartFromProductDetail" finished-at="2024-06-27T08:48:25 IST" duration-ms="2744" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToSearchProduct()[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:55 IST" name="verifyIfUserIsAbleToSearchProduct" finished-at="2024-07-03T05:10:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [bc90bef074d1bf5b1ed5aa5094fcb174, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51280}, msedge: {msedgedriverVersion: 126.0.2592.81 (38151611195b..., userDataDir: C:\Users\123\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51280/devtoo..., se:cdpVersion: 126.0.2592.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc90bef074d1bf5b1ed5aa5094fcb174]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [bc90bef074d1bf5b1ed5aa5094fcb174, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51280}, msedge: {msedgedriverVersion: 126.0.2592.81 (38151611195b..., userDataDir: C:\Users\123\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51280/devtoo..., se:cdpVersion: 126.0.2592.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc90bef074d1bf5b1ed5aa5094fcb174
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
+at pojo.Browser.launchApplication(Browser.java:26)
+at test.ProductSearchTest.openApplication(ProductSearchTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddToCartFromProductDetail -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:25 IST" name="closeApplication" finished-at="2024-06-27T08:48:25 IST" duration-ms="65" status="PASS">
+        </test-method> <!-- verifyIfUserIsAbleToSearchProduct -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:55 IST" name="closeApplication" finished-at="2024-07-03T05:10:55 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:25 IST" name="openApplication" finished-at="2024-06-27T08:48:28 IST" duration-ms="2994" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:55 IST" name="openApplication" finished-at="2024-07-03T05:10:55 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyAddingTwoProductsInTheCart()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:28 IST" name="verifyAddingTwoProductsInTheCart" finished-at="2024-06-27T08:48:33 IST" duration-ms="4806" status="PASS">
+        <test-method signature="verifyIfUserIsAbleToSeeShopingCategories()[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:55 IST" name="verifyIfUserIsAbleToSeeShopingCategories" finished-at="2024-07-03T05:10:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [bc90bef074d1bf5b1ed5aa5094fcb174, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51280}, msedge: {msedgedriverVersion: 126.0.2592.81 (38151611195b..., userDataDir: C:\Users\123\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51280/devtoo..., se:cdpVersion: 126.0.2592.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc90bef074d1bf5b1ed5aa5094fcb174]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [bc90bef074d1bf5b1ed5aa5094fcb174, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51280}, msedge: {msedgedriverVersion: 126.0.2592.81 (38151611195b..., userDataDir: C:\Users\123\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51280/devtoo..., se:cdpVersion: 126.0.2592.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc90bef074d1bf5b1ed5aa5094fcb174
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
+at pojo.Browser.launchApplication(Browser.java:26)
+at test.ProductSearchTest.openApplication(ProductSearchTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddingTwoProductsInTheCart -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:33 IST" name="closeApplication" finished-at="2024-06-27T08:48:33 IST" duration-ms="78" status="PASS">
+        </test-method> <!-- verifyIfUserIsAbleToSeeShopingCategories -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.ProductSearchTest@22fcf7ab]" started-at="2024-07-03T05:10:55 IST" name="closeApplication" finished-at="2024-07-03T05:10:55 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:33 IST" name="openApplication" finished-at="2024-06-27T08:48:42 IST" duration-ms="8983" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="verifyAmountsInTheCart()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:42 IST" name="verifyAmountsInTheCart" finished-at="2024-06-27T08:48:44 IST" duration-ms="2238" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAmountsInTheCart -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:44 IST" name="closeApplication" finished-at="2024-06-27T08:48:45 IST" duration-ms="120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:45 IST" name="openApplication" finished-at="2024-06-27T08:48:48 IST" duration-ms="3132" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="verifyAmountsInTheCartForMultipleProducts()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:48 IST" name="verifyAmountsInTheCartForMultipleProducts" finished-at="2024-06-27T08:48:57 IST" duration-ms="8986" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAmountsInTheCartForMultipleProducts -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:57 IST" name="closeApplication" finished-at="2024-06-27T08:48:57 IST" duration-ms="588" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:48:57 IST" name="openApplication" finished-at="2024-06-27T08:49:03 IST" duration-ms="6145" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="verifyRemoveFunctionalityOfCart()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:49:03 IST" name="verifyRemoveFunctionalityOfCart" finished-at="2024-06-27T08:49:16 IST" duration-ms="12706" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRemoveFunctionalityOfCart -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.CartTest@776aec5c]" started-at="2024-06-27T08:49:16 IST" name="closeApplication" finished-at="2024-06-27T08:49:16 IST" duration-ms="137" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-      </class> <!-- test.CartTest -->
-    </test> <!-- Test -->
+      </class> <!-- test.ProductSearchTest -->
+    </test> <!-- EdgeTest -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -42,7 +42,7 @@ public class NaaptolResultPage extends BasePage{
 
 	public void isProductsDisplayed(int index) {
 		products.get(index).click();
-	}
+	} 
 
 	public String getProductTitle(int index) {
 		return productTitle.get(index).getText();

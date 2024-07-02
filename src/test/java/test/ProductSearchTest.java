@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pojo.Browser;
 import pom.NaaptolHomePage;
@@ -12,10 +13,11 @@ import pom.NaaptolHomePage;
 
 
 public class ProductSearchTest extends BaseTest {
-
+	
+	@Parameters ({"name"})
 	@BeforeMethod
-	public void openApplication() {
-		driver = Browser.launchApplication();
+	public void openApplication(String name) {
+		driver = Browser.launchApplication(name);
 	}
 
 	@AfterMethod
